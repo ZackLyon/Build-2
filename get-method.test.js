@@ -1,4 +1,4 @@
-const getMethod = require('./index');
+const getMethod = require('./get-method');
 
 describe('parse method tests', () => {
   it('should accept an HTTP GET request as a parameter and parse the method from it', () => {
